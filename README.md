@@ -1,4 +1,22 @@
-# Welcome to Bitcoin.org's Codebase
+# Welcome to BitCoin-IL's Website Repo
+
+## Getting started
+
+### Serving
+
+To serve the site run
+
+```
+bundle exec jekyll serve
+```
+
+### Deploying
+
+```
+firebase deploy
+```
+
+<!-- # Welcome to Bitcoin.org's Codebase
 
 Current Build Status: ![Build Status](https://travis-ci.org/bitcoin-dot-org/bitcoin.org.svg?branch=master)
 
@@ -29,4 +47,4 @@ The following quick guides will help you get started:
 
 ### Code of Conduct
 
-Participation in this project is subject to a [Code of Conduct](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/CODE_OF_CONDUCT.md).
+Participation in this project is subject to a [Code of Conduct](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/CODE_OF_CONDUCT.md). -->
