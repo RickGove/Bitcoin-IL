@@ -1,4 +1,4 @@
-name: Deploy to Firebase Hosting on Push
+name: Push Deploy
 on: [push]
 jobs:
     build_and_preview:
