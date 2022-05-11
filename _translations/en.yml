@@ -28,7 +28,7 @@ en:
     maintenance: "Maintenance"
     documentation: "Documentation"
     sponsorship: "Sponsorship"
-    service_contributors: "Service Contributors"
+    service_contributors: "Services Contributors"
     translations_realname: "Translations(real name)"
     translations_transifexname: "Translations(transifex name)"
     inactive_contributors: "Inactive Contributors"
