@@ -12,6 +12,7 @@ _cache
 .jekyll-metadata
 .jekyll-cache/
 .sass-cache/
+public/*
 
 # To prevent accidental push of translations from
 # Transifex.
