@@ -1,4 +1,4 @@
-name: CURRENT
+name: Watch me
 on: [push]
   push:
     branches:
