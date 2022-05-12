@@ -7,6 +7,9 @@ source 'https://rubygems.org'
 ## the build server(s) before they commit to master
 ruby '2.5.8'
 
+gem 'github-pages'
+
+
 ## Used on the build server. If you add a package here (like nokogiri)
 ## that has non-Gem dependencies (like zlib), please remind the site
 ## maintainers that they need to manually update the build server(s)
@@ -14,13 +17,13 @@ ruby '2.5.8'
 ## your dependencies, then nothing extra needs to be done
 group :development do
   gem 'ffi-icu'
-  gem 'jekyll', '~>4.0'
-  gem 'json', '>= 1.9'
-  gem 'less', '2.4.0'
-  gem 'kramdown', '~>2.3'
-  gem 'RedCloth', ">= 4.3.0"
+  gem 'jekyll'
+  gem 'json'
+  gem 'less'
+  gem 'kramdown'
+  gem 'RedCloth'
   gem 'therubyracer' # required by less
-  gem 'jshintrb', '~>0.3.0'
+  gem 'jshintrb'
   gem 'safe_yaml'
   gem 'json-schema'
 end
