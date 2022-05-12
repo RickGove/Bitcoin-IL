@@ -3,14 +3,13 @@ on: push
 
 jobs:
     build_and_preview:
-        # if:
-        # "${{ github.event.pull_request.head.repo.full_name == github.repository }}"
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
+            - uses: helaili/jekyll-action@2.3.1
+            # - uses: actions/checkout@v2
             - run: bundle exec jekyll build -d public
-            - uses: FirebaseExtended/action-hosting-deploy@v0
-              with:
-                  repoToken: "${{ secrets.GITHUB_TOKEN }}"
-                  firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_BITCOIN_IL }}"
-                  projectId: bitcoin-il
+            # - uses: FirebaseExtended/action-hosting-deploy@v0
+            #   with:
+            #       repoToken: "${{ secrets.GITHUB_TOKEN }}"
+            #       firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_BITCOIN_IL }}"
+            #       projectId: bitcoin-il
