@@ -567,9 +567,9 @@ aliases:
 safe:        false
 port: 4000
 ## Used in older version of Jekyll
-base-url:    /
+base-url: "Bitcoin-IL"
 ## Used in newer versions of Jekyll
-baseurl:    /
+baseurl: "Bitcoin-IL"
 
 source:      .
 destination: ./_site
