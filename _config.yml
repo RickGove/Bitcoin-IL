@@ -567,9 +567,10 @@ aliases:
 safe:        false
 port: 4000
 ## Used in older version of Jekyll
-base-url: "Bitcoin-IL"
+base-url: "/"
 ## Used in newer versions of Jekyll
-baseurl: "Bitcoin-IL"
+baseurl: "/"
+url: "https://rickgove.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 source:      .
 destination: ./_site
